@@ -1,0 +1,272 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+
+
+
+
+/* shared styles */
+body{
+    min-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+   
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.display-flex{
+    display: flex;
+}
+/* header section styles */
+header{
+     max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px; 
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: 730px 70px; 
+   
+
+   
+    
+
+}
+/* navbar styles */
+.navigation{
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.nav-brand{
+    font-size: 1.5rem;
+    color: #3A3A3A;
+    font-weight: 700;
+}
+/* banner section styles*/
+.banner-container{
+    gap: 100px;
+    align-items: center;
+    
+}
+.banner-content{
+    max-width: 580px;
+    
+    
+    
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: 0;
+}
+.banner-description{
+    font-weight: 600;
+    color: #3A3A3A;
+    font-size: 1rem;
+    margin-bottom: 16px;
+
+    
+}
+.btn-primary{
+    border-radius: 41px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+}
+.banner-img img{
+    width: 100%;
+    
+}
+/* online-companies section styles */
+.online-companies-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    box-shadow: 0px 0px 4px 0px rgba(170, 170, 170, 1) ;
+     height: 100px; 
+     padding: 0 60px; 
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+   
+   
+}
+/* popular collection section styles */
+.popular-collection{
+    max-width: 1047px;
+    margin: 0 auto;
+}
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
+.collection-card{
+    width: 330px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 17px 14px;
+   
+}
+.collection-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+}
+.collection-sub-title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #18191F;
+     margin-top: 0; 
+     margin-bottom: 5px;
+     
+}
+.collection-price{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 0;
+    margin-bottom:5px;
+    
+}
+.review-rating{
+    
+    font-weight: 700;
+    color: rgba(94, 99, 102, 1);
+}
+.collection-description{
+    color: rgba(120, 120, 133, 1);
+     font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#see-more{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: end;
+    margin-right: 15px;
+}
+/* featured product section styles */
+.featured-product{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.featured-container{
+    gap: 96px;
+    align-items: center;
+    margin-top: 50px;
+}
+.featured-content{
+    max-width: 610px;
+}
+.featured-img img{
+    width: 100%;
+}
+.featured-title{
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #0A0826;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.featured-description{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+.featured-content .btn-primary{
+    border-radius: 0;
+}
+/* footer section styles */
+footer{
+    background-color: #0A0826;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     padding: 30px;
+     margin-top: 100px;
+
+}
+.footer-brand{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+   
+
+}
+#copyright, #reserved{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: rgba(217, 219, 225, 1);
+    margin-top: 0;
+    margin-bottom: 5px;
+    
+}
+.social-link-img a img{
+    filter: brightness(0) invert(1);
+    margin-right: 5px;
+    
+}
+
+
+
+
+

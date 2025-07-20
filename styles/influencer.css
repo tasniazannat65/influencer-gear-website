@@ -61,12 +61,10 @@ header{
     padding: 0 50px; 
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-position: 730px 70px; 
-   
-
-   
+    background-size: contain;
+     background-position: 730px 70px;  
     
-
+   
 }
 /* navbar styles */
 .navigation{
@@ -125,6 +123,7 @@ header{
 }
 .banner-img img{
     width: 100%;
+     
     
 }
 /* online-companies section styles */

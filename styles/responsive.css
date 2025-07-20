@@ -1,0 +1,99 @@
+/* for mobile devices */
+@media screen and (max-width: 576px) {
+    /* navigation responsive */
+    .navigation,
+     .nav-links{
+    flex-direction: column;
+   
+}
+/* banner section responsive */
+.banner-container, .featured-container{
+    flex-direction: column-reverse;
+    
+    
+}
+.banner-content{
+    text-align: center;
+    
+    
+    
+    
+}
+.banner-title{
+    font-size: 1.75rem;
+    margin-top: auto;
+   
+}
+.banner-description{
+   
+    font-size: 0.875rem;
+   
+
+    
+}
+
+header{
+    
+      background-size: contain;  
+     background-position: center center;   
+}
+/* online companies section responsive */
+.online-companies-container{
+    
+    grid-template-columns: repeat(4, 1fr);
+   padding-left: 30px;
+   margin: auto;
+   gap: 20px;
+   
+  
+    
+   
+   
+}
+.online-companies-container img{
+    width: 70px;
+}
+.collection-container{
+   
+    grid-template-columns: 1fr;
+    justify-items: center;
+    
+}
+#see-more{
+   
+    margin-right: 25px;
+}
+.featured-content{
+    text-align: center;
+}
+.featured-container{
+    margin: 0 30px;
+    gap: 40px;
+}
+.featured-title{
+    
+    font-size: 1.5rem;
+    
+}
+.footer-brand{
+    font-size: 1rem;
+    
+   
+
+}
+#copyright, #reserved{
+    font-size: 0.75rem;
+   
+    
+}
+.social-link-img img{
+    width: 24px;
+}
+footer{
+    margin-top: 50px;
+}
+
+
+
+    
+}

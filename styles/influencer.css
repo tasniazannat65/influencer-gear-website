@@ -61,8 +61,9 @@ header{
     padding: 0 50px; 
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-     background-position: 730px 70px;  
+    background-size: 500px 430px;
+   
+     background-position:  bottom right;
     
    
 }

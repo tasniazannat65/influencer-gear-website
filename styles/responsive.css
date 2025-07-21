@@ -32,11 +32,10 @@
     
 }
 
-header{
-    
-      background-size: contain;  
+ header{
+    background-size: contain;  
      background-position: center center;   
-}
+} 
 /* online companies section responsive */
 .online-companies-container{
     
